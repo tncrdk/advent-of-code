@@ -13,5 +13,5 @@ def foo(arr):
                 if 2020 - (a + i) in arr:
                     return a * i * (2020 - (a + i))
 
-
+print(foo(arr))
 print(foo(arr))
